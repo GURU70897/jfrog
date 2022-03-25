@@ -72,4 +72,16 @@
       </plugins>
     </pluginManagement>
   </build>
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>GURURAJ-releases</name>
+        <url>http://localhost:8082/artifactory/maven2</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>GURURAJ-snapshots</name>
+        <url>http://localhost:8082/artifactory/maven2</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
